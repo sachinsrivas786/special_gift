@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -95,11 +94,13 @@
     </style>
 </head>
 <body>
-    <form id="login-form">
+    <form id="login-form" style="margin-top:30%;">
         <label for="code">Enter Your Name:</label>
         <input type="text" id="code" name="code" placeholder="Your Name">
         <button id="submit-btn">Login</button>
     </form>
+    <br>
+    <br>
     <div id="result"></div>
     <script>
         const form = document.getElementById('login-form');
